@@ -10,7 +10,7 @@ import './common.css';
 import Main from './views/main/main';
 import Login from "./views/login/login";
 import ProtocolHandler from "./model/protocol_handler";
-
+// TEST PR
 window.APIHost = (document.location.host === "localhost:3000" ? "localhost:8000" : document.location.host)
 
 class Index extends React.Component {
